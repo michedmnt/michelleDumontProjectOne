@@ -1,6 +1,6 @@
 header {
     background-color: $baseColor;
-    min-height: 90vh;
+    min-height: 30vh;
     display: block;
     justify-content: center;
     align-items: center;
@@ -44,6 +44,31 @@ header {
             text-decoration: none;
             text-transform: uppercase;
             margin: 0 10px;
+        }
+
+        .head {
+            display: flex;
+            align-items: center;
+
+            & :first-child {
+                position: relative;
+                bottom: 150px;
+            }
+
+            h2 {
+                position: relative;
+                right: 150px;
+                bottom: 90px;
+
+                text-transform: uppercase;
+            }
+
+            .headImg {
+                box-shadow: 30px -100px $solidWhite;
+                position: relative;
+                top: 200px;
+            }
+
         }
     }
 

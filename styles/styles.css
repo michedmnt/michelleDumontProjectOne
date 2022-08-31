@@ -243,8 +243,8 @@ html {
 
 h2 {
   font-family: "Lora", serif;
-  font-size: 8rem;
-  font: bold;
+  font-size: 12rem;
+  font-weight: bold;
 }
 
 h3 {
@@ -278,7 +278,7 @@ body {
 
 header {
   background-color: #f6a823;
-  min-height: 90vh;
+  min-height: 30vh;
   display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -329,4 +329,28 @@ header .logo {
   text-decoration: none;
   text-transform: uppercase;
   margin: 0 10px;
+}
+header .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .head :first-child {
+  position: relative;
+  bottom: 150px;
+}
+header .head h2 {
+  position: relative;
+  right: 150px;
+  bottom: 90px;
+  text-transform: uppercase;
+}
+header .head .headImg {
+  -webkit-box-shadow: 30px -100px #fff;
+          box-shadow: 30px -100px #fff;
+  position: relative;
+  top: 200px;
 }
