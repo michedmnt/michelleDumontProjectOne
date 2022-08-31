@@ -224,7 +224,7 @@ template {
 .skipLink {
   background: #fff;
   color: #f6a823;
-  font-size: 1rem;
+  font-size: 2rem;
   padding: 10px 0;
   position: absolute;
   left: -1000px;
@@ -235,4 +235,98 @@ template {
   left: 0;
   right: 0;
   text-align: center;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-size: 8rem;
+  font: bold;
+}
+
+h3 {
+  font-size: 4.2rem;
+}
+
+h4 {
+  font-size: 3.2rem;
+}
+
+h5 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+body {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #f6a823;
+  min-height: 90vh;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+header .navBar {
+  min-height: 10vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 0;
+}
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header ul li {
+  list-style: none;
+  margin: 7px 30px;
+}
+header ul li a {
+  font-size: 1.5rem;
+  color: #2c2c2c;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header ul li a:hover, header ul li a:focus {
+  color: #fff;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+header .logo {
+  font-size: 1.7rem;
+  color: #2c2c2c;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 10px;
 }
