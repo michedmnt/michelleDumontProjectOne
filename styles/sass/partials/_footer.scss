@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: $primaryFontColor;
+
+    & p {
+        margin: 0;
+        padding: 10px;
+    }
+}
