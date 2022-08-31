@@ -1,0 +1,50 @@
+.blogHead {
+    height: 40vh;
+
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        display: flex;
+        position: relative;
+        left: 80px;
+        bottom: 50px;
+    }
+}
+
+.floatLeft {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+}
+
+.about p a {
+    text-decoration: none;
+    color: $secondaryFontColor;
+    font-weight: bold;
+}
+
+.recentPosts ul {
+    list-style: none;
+}
+
+.recentPosts li::before {
+    content: "•";
+    color: $baseColor;
+    display: inline-block;
+    width: 1em;
+}
+
+.recentPosts li a {
+    text-decoration: none;
+    color: $primaryFontColor;
+    font-size: 2.4rem;
+}
+
+.whyIBecameABlogger {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%
+}

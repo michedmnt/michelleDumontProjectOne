@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -406,21 +407,6 @@ header .head .headImg img {
   height: auto;
 }
 
-.blogHead {
-  height: 40vh;
-}
-.blogHead img {
-  width: 100%;
-}
-.blogHead h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  left: 80px;
-  bottom: 50px;
-}
-
 .whoIsSophie {
   background-color: #f0efed;
   padding: 100px 0;
@@ -604,18 +590,64 @@ header .head .headImg img {
   margin: 0 20px;
 }
 
+.blogHead {
+  height: 40vh;
+}
+.blogHead img {
+  width: 100%;
+}
+.blogHead h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 80px;
+  bottom: 50px;
+}
+
 .floatLeft {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 30%;
 }
 
-main .floatLeft {
-  background-color: #f0efed;
+.about p a {
+  text-decoration: none;
+  color: #285e64;
+  font-weight: bold;
+}
+
+.recentPosts ul {
+  list-style: none;
+}
+
+.recentPosts li::before {
+  content: "•";
+  color: #f6a823;
+  display: inline-block;
+  width: 1em;
+}
+
+.recentPosts li a {
+  text-decoration: none;
+  color: #2c2c2c;
+  font-size: 2.4rem;
+}
+
+.whyIBecameABlogger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 60%;
 }
 
 footer {
