@@ -304,6 +304,7 @@ body {
 .primaryButton {
   display: inline-block;
   padding: 10px 20px;
+  margin-bottom: 50px;
   line-height: 32px;
   letter-spacing: 1px;
   -webkit-transition: 0.3s;
@@ -406,6 +407,61 @@ header .head .headImg img {
 .whoIsSophie p {
   width: 80%;
   margin-bottom: 30px;
+}
+
+.favsAndTravel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.favsAndTravel ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+.favsAndTravel ul .doggyBackground {
+  background-color: #a82706;
+  position: relative;
+  bottom: 30px;
+  padding: 0 40px;
+}
+.favsAndTravel ul .doggyImg {
+  position: relative;
+  bottom: 30px;
+  left: 15px;
+}
+.favsAndTravel ul .favs {
+  margin-left: 60px;
+}
+.favsAndTravel ul .beachBackground {
+  background-color: #f6a823;
+  position: relative;
+  top: 30px;
+  padding: 0 40px;
+}
+.favsAndTravel ul .beachImg {
+  position: relative;
+  bottom: 20px;
+  right: 50px;
+}
+.favsAndTravel ul .travel {
+  padding: 50px;
+  margin-top: 20px;
 }
 
 footer {

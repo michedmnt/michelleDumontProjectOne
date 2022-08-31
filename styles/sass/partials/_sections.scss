@@ -7,3 +7,55 @@
         margin-bottom: 30px;
     }
 }
+
+.favsAndTravel ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    & li {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 50%;
+    }
+    
+    .doggyBackground {
+        background-color: $shadowEffect;
+        position: relative;
+        bottom: 30px;
+        padding: 0 40px;
+    }
+
+    .doggyImg {
+        position: relative;
+        bottom: 30px;
+        left: 15px;
+    }
+
+    .favs {
+        margin-left: 60px;
+    }
+    
+        .beachBackground {
+            background-color: $baseColor;
+            position: relative;
+            top: 30px;
+            padding: 0 40px;
+        }
+    
+        .beachImg {
+            position: relative;
+            bottom: 20px;
+            right: 50px;
+        }
+
+        .travel {
+            padding: 50px;
+            margin-top: 20px;
+        }
+}
