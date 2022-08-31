@@ -8,8 +8,18 @@ h2 {
     font-weight: bold;
 }
 
+h3,
+h4,
+h5,
+h6 {
+    font-family: $primaryFont;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 h3 {
     font-size: 4.2rem;
+
 }
 
 h4 {
@@ -27,4 +37,13 @@ p {
 
 footer {
     color: $solidWhite;
+}
+
+.primaryButton {
+    background-color: $accentColor;
+    color: $primaryFontColor;
+    font-family: $primaryFont;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
 }

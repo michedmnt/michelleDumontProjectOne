@@ -247,6 +247,15 @@ h2 {
   font-weight: bold;
 }
 
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 h3 {
   font-size: 4.2rem;
 }
@@ -268,8 +277,20 @@ footer {
   color: #fff;
 }
 
+.primaryButton {
+  background-color: #05afc1;
+  color: #2c2c2c;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 h1,
 h2,
+h3,
+h4,
+h5,
 body {
   margin: 0;
 }
@@ -278,6 +299,18 @@ body {
   max-width: 1280px;
   width: 90%;
   margin: 0 auto;
+}
+
+.primaryButton {
+  display: inline-block;
+  padding: 10px 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.primaryButton:hover, .primaryButton:focus {
+  color: #fff;
 }
 
 header {
@@ -321,6 +354,8 @@ header ul li a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 header ul li a:hover, header ul li a:focus {
   color: #fff;
@@ -341,22 +376,36 @@ header .head {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 header .head :first-child {
   position: relative;
-  bottom: 150px;
+  bottom: 100px;
 }
 header .head h2 {
   position: relative;
   right: 150px;
-  bottom: 90px;
+  bottom: 30px;
   text-transform: uppercase;
 }
-header .head .headImg {
-  -webkit-box-shadow: 30px -100px #fff;
-          box-shadow: 30px -100px #fff;
+header .head .headImg img {
+  -webkit-box-shadow: 20px 20px #fff;
+          box-shadow: 20px 20px #fff;
   position: relative;
-  top: 200px;
+  top: 60px;
+  width: 80%;
+  height: auto;
+}
+
+.whoIsSophie {
+  background-color: #f0efed;
+  padding: 100px 0;
+}
+.whoIsSophie p {
+  width: 80%;
+  margin-bottom: 30px;
 }
 
 footer {

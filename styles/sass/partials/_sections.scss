@@ -1,0 +1,9 @@
+.whoIsSophie {
+    background-color: $backgroundColor;
+    padding: 100px 0;
+    
+    & p {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
